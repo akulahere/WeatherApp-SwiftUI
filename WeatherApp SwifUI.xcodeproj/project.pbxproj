@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66D14B81297ED97A0018E02E /* HourlyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D14B80297ED97A0018E02E /* HourlyBox.swift */; };
 		66DF23DF297ED1BC00A11AAA /* WeatherApp_SwifUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF23DE297ED1BC00A11AAA /* WeatherApp_SwifUIApp.swift */; };
 		66DF23E1297ED1BC00A11AAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF23E0297ED1BC00A11AAA /* ContentView.swift */; };
 		66DF23E3297ED1BD00A11AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF23E2297ED1BD00A11AAA /* Assets.xcassets */; };
 		66DF23E6297ED1BD00A11AAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF23E5297ED1BD00A11AAA /* Preview Assets.xcassets */; };
+		66DF23ED297ED42500A11AAA /* ValueDescriptionStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF23EC297ED42500A11AAA /* ValueDescriptionStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66D14B80297ED97A0018E02E /* HourlyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyBox.swift; sourceTree = "<group>"; };
 		66DF23DB297ED1BC00A11AAA /* WeatherApp SwifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherApp SwifUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DF23DE297ED1BC00A11AAA /* WeatherApp_SwifUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp_SwifUIApp.swift; sourceTree = "<group>"; };
 		66DF23E0297ED1BC00A11AAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66DF23E2297ED1BD00A11AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66DF23E5297ED1BD00A11AAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66DF23EC297ED42500A11AAA /* ValueDescriptionStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueDescriptionStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				66DF23DE297ED1BC00A11AAA /* WeatherApp_SwifUIApp.swift */,
 				66DF23E0297ED1BC00A11AAA /* ContentView.swift */,
+				66DF23EC297ED42500A11AAA /* ValueDescriptionStack.swift */,
+				66D14B80297ED97A0018E02E /* HourlyBox.swift */,
 				66DF23E2297ED1BD00A11AAA /* Assets.xcassets */,
 				66DF23E4297ED1BD00A11AAA /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DF23E1297ED1BC00A11AAA /* ContentView.swift in Sources */,
+				66DF23ED297ED42500A11AAA /* ValueDescriptionStack.swift in Sources */,
+				66D14B81297ED97A0018E02E /* HourlyBox.swift in Sources */,
 				66DF23DF297ED1BC00A11AAA /* WeatherApp_SwifUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
